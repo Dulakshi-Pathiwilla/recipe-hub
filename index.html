@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Hub — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center">
+      <div class="brand">
+        <div class="logo">RH</div>
+        <div>
+          <div style="font-weight:800">Recipe Hub</div>
+          <div style="font-size:12px;color:var(--muted)">Simple. Tasty. Share.</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Find your next favorite recipe</h1>
+        <p>Browse quick dinners, healthy breakfasts, and desserts made simple — from home cooks around the world.</p>
+        <div class="search">
+          <input aria-label="Search recipes" placeholder="Search recipes, e.g. "Chocolate cake"" />
+          <a class="btn" href="#recipes">Search</a>
+        </div>
+      </div>
+      <div style="flex:1">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=60" alt="Plate of food" style="width:100%;border-radius:10px;box-shadow:0 8px 24px rgba(16,24,40,0.08)"/>
+      </div>
+    </section>
+
+    <section id="recipes">
+      <h2 style="margin-top:8px">Featured recipes</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1514512364185-4f2f5b7c7f4b?auto=format&fit=crop&w=800&q=60" alt="Pasta"/>
+          <div class="card-body">
+            <h3>One-Pot Creamy Pasta</h3>
+            <div class="meta">30 min • Easy • 4 servings</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=60" alt="Salad"/>
+          <div class="card-body">
+            <h3>Fresh Summer Salad</h3>
+            <div class="meta">15 min • Healthy • Vegan option</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=60" alt="Pancakes"/>
+          <div class="card-body">
+            <h3>Fluffy Pancakes</h3>
+            <div class="meta">20 min • Breakfast • Kid-friendly</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?auto=format&fit=crop&w=800&q=60" alt="Soup"/>
+          <div class="card-body">
+            <h3>Hearty Lentil Soup</h3>
+            <div class="meta">40 min • Comfort food • High protein</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="categories" style="margin-top:22px">
+      <h2>Browse by category</h2>
+      <div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap">
+        <a href="#" style="padding:8px 12px;background:#fff;border-radius:8px;text-decoration:none;border:1px solid #eee">Breakfast</a>
+        <a href="#" style="padding:8px 12px;background:#fff;border-radius:8px;text-decoration:none;border:1px solid #eee">Dinner</a>
+        <a href="#" style="padding:8px 12px;background:#fff;border-radius:8px;text-decoration:none;border:1px solid #eee">Dessert</a>
+        <a href="#" style="padding:8px 12px;background:#fff;border-radius:8px;text-decoration:none;border:1px solid #eee">Vegan</a>
+        <a href="#" style="padding:8px 12px;background:#fff;border-radius:8px;text-decoration:none;border:1px solid #eee">Quick & Easy</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© Recipe Hub — Made with ❤️ • <a href="#about">About</a> • <a href="#contact">Contact</a></small>
+    </div>
+  </footer>
+</body>
+</html>
